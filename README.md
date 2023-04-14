@@ -20,15 +20,15 @@ There are 12 columns and 8,523 rows.
 
 ![image](https://user-images.githubusercontent.com/61045591/225922808-d1e45e58-16df-464a-b265-251e1a7572f5.png)
 
-This is a histogram of the Item_MRP, which shows the range of maximum retail price for the products sold in the stores.
+This is a histogram of the Item_MRP, which shows the range of maximum retail price for the products sold in the stores. 
 
 ![image](https://user-images.githubusercontent.com/61045591/225922857-3147cb19-fc25-4bff-8b36-492f7507ed9c.png)
 
-This box and whisker plot shows the ranges of the Item Max Retail Price is for each individual store. You can notice that they have a very similar range among the 10 stores.
+This box and whisker plot shows the ranges of the Item Max Retail Price is for each individual store. You can notice that they have a very similar range among the 10 stores. This shows that all the stores have similar price range of items and the only determining factor of their sales is how much they sell, not the price range of items.
 
 ![image](https://user-images.githubusercontent.com/61045591/225922904-bd022fa8-25cc-4772-945a-8c31b51a1d33.png)
 
-This is a heatmap among the quantifiable data to see the correlation between each factors.
+This is a heatmap among the quantifiable data to see the correlation between each factors. There is almost no correlation between the different factors. This means that there are no linear corelationship between the variables. However, it could mean they could have nonlinear relationships.
 
 ## Explanatory Visuals
 
@@ -55,6 +55,9 @@ Seafood                  148K
 ![image](https://user-images.githubusercontent.com/61045591/225923081-1be074eb-e92b-4ac8-a7a9-3cd4b290854a.png)
 
 This graph shows which outlets have the most sales. This shows that OUT010 and OUT019 show very little sales compared to the most of them while OUT027 is outperforming by a lot. OUT027 had sales of 3.45M dollars while OUT019 had sales of 180K dollars
+
+
+## Modeling results
 
 Using both linear regression and decision tree, experiment tries to determine which is the better model to determine Item_Outlet_Sales. 
 
